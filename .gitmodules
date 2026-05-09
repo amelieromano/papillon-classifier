@@ -1,0 +1,3 @@
+[submodule "mendmap"]
+	path = mendmap
+	url = https://github.com/annavines/mendmap
