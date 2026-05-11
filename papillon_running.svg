@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 210" width="290" height="210">
+  <!-- Speed lines (left side) -->
+  <line x1="8"  y1="96"  x2="48"  y2="96"  stroke="#C4470A" stroke-width="2.5" stroke-linecap="round" opacity="0.65"/>
+  <line x1="4"  y1="110" x2="42"  y2="110" stroke="#C4470A" stroke-width="2"   stroke-linecap="round" opacity="0.5"/>
+  <line x1="12" y1="82"  x2="46"  y2="82"  stroke="#C4470A" stroke-width="1.8" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Tail (flying upward) -->
+  <path d="M212,88 Q244,48 232,90" fill="none" stroke="#F5EFE6" stroke-width="9" stroke-linecap="round"/>
+  <!-- Tail tip plume -->
+  <path d="M232,90 Q248,76 238,98" fill="none" stroke="#F5EFE6" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Body (elongated, slightly diagonal) -->
+  <ellipse cx="162" cy="120" rx="64" ry="29" fill="#F5EFE6" stroke="#C8882A" stroke-width="2.5" transform="rotate(-12,162,120)"/>
+  <!-- Body saddle patch -->
+  <ellipse cx="170" cy="116" rx="32" ry="17" fill="#C8882A" opacity="0.5" transform="rotate(-12,170,116)"/>
+
+  <!-- Neck -->
+  <ellipse cx="108" cy="100" rx="18" ry="14" fill="#F5EFE6" stroke="#C8882A" stroke-width="2" transform="rotate(-22,108,100)"/>
+
+  <!-- Head -->
+  <circle cx="88" cy="88" r="29" fill="#F5EFE6" stroke="#C8882A" stroke-width="2.5"/>
+
+  <!-- Left ear (swept back in wind) -->
+  <path d="M76,70 C58,33 33,42 38,68 C42,88 66,86 76,72Z"
+        fill="#C8882A" stroke="#C4470A" stroke-width="2" transform="rotate(18,76,70)"/>
+  <!-- Left ear inner vein -->
+  <path d="M74,70 C60,48 44,52 46,68" fill="none" stroke="#C4470A" stroke-width="1" opacity="0.4" transform="rotate(18,76,70)"/>
+  <!-- Left ear fringe (swept) -->
+  <line x1="39" y1="70" x2="26" y2="62" stroke="#F5EFE6" stroke-width="1.7" stroke-linecap="round" opacity="0.65"/>
+  <line x1="42" y1="58" x2="30" y2="49" stroke="#F5EFE6" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Right ear (swept back) -->
+  <path d="M110,64 C127,28 152,36 146,62 C142,80 118,78 110,65Z"
+        fill="#C8882A" stroke="#C4470A" stroke-width="2"/>
+  <!-- Right ear inner vein -->
+  <path d="M112,64 C128,40 148,46 144,62" fill="none" stroke="#C4470A" stroke-width="1" opacity="0.4"/>
+  <!-- Right ear fringe (swept) -->
+  <line x1="146" y1="64" x2="158" y2="56" stroke="#F5EFE6" stroke-width="1.7" stroke-linecap="round" opacity="0.65"/>
+  <line x1="142" y1="52" x2="154" y2="44" stroke="#F5EFE6" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Face mask -->
+  <path d="M68,87 C72,75 84,71 88,71 C92,71 104,75 108,87 C104,94 96,97 88,97 C80,97 72,94 68,87Z"
+        fill="#C8882A" opacity="0.62"/>
+  <!-- White blaze -->
+  <ellipse cx="88" cy="76" rx="5" ry="7.5" fill="#F5EFE6"/>
+
+  <!-- Eyes (wide, excited) -->
+  <circle cx="77" cy="83" r="7" fill="#2C1A0E"/>
+  <circle cx="98" cy="81" r="7" fill="#2C1A0E"/>
+  <circle cx="79.5" cy="80.5" r="2.2" fill="white"/>
+  <circle cx="100.5" cy="78.5" r="2.2" fill="white"/>
+
+  <!-- Nose -->
+  <path d="M83,98 C86,94 90,94 93,98 C90,104 86,104 83,98Z" fill="#C4470A"/>
+
+  <!-- Happy open mouth + tongue -->
+  <path d="M81,103 Q88,113 95,103" fill="none" stroke="#C4470A" stroke-width="2" stroke-linecap="round"/>
+  <path d="M84,105 Q88,115 92,105" fill="#C4470A"/>
+
+  <!-- Front left leg (reaching forward) -->
+  <path d="M114,130 Q106,150 100,165" stroke="#F5EFE6" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <ellipse cx="100" cy="170" rx="12" ry="7" fill="#F5EFE6" stroke="#C8882A" stroke-width="2"/>
+
+  <!-- Front right leg (mid-stride) -->
+  <path d="M120,134 Q124,153 128,165" stroke="#F5EFE6" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <ellipse cx="128" cy="170" rx="12" ry="7" fill="#F5EFE6" stroke="#C8882A" stroke-width="2"/>
+
+  <!-- Back left leg (pushing off) -->
+  <path d="M202,130 Q218,150 225,162" stroke="#F5EFE6" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <ellipse cx="225" cy="167" rx="12" ry="7" fill="#F5EFE6" stroke="#C8882A" stroke-width="2"/>
+
+  <!-- Back right leg (extended behind) -->
+  <path d="M208,124 Q232,138 246,144" stroke="#F5EFE6" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <ellipse cx="246" cy="147" rx="12" ry="7" fill="#F5EFE6" stroke="#C8882A" stroke-width="2" transform="rotate(-28,246,147)"/>
+</svg>
